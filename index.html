@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ==========================================
+         1. DOCUMENT STRUCTURE & METADATA
+    =========================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Zero to Hero - All in one HTML master file by krunal-viradiya">
+    <title>HTML: Zero to Hero 🚀</title>
+
+    <!-- Basic CSS inside style tag to make it look good -->
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header, footer { background: #333; color: #fff; text-align: center; padding: 1rem 0; }
+        main { padding: 20px; max-width: 900px; margin: auto; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        section { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #ccc; }
+        h1, h2, h3 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        table, th, td { border: 1px solid #999; }
+        th, td { padding: 10px; text-align: left; }
+        code { background: #eee; padding: 2px 5px; border-radius: 3px; }
+        pre { background: #333; color: #fff; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+
+    <!-- ==========================================
+         2. SEMANTIC HTML: HEADER & NAV
+    =========================================== -->
+    <header>
+        <h1 style="color: whitesmoke;">HTML: Zero to Hero Master File</h1>
+        <p>One single file containing all the HTML concepts you need!</p>
+    </header>
+
+    <nav style="background: #444; padding: 10px; text-align: center;">
+        <!-- Links (Anchor Tags) -->
+        <a href="#text-formatting" style="color: white; margin: 0 10px;">Text Formatting</a>
+        <a href="#lists" style="color: white; margin: 0 10px;">Lists</a>
+        <a href="#media" style="color: white; margin: 0 10px;">Media</a>
+        <a href="#tables" style="color: white; margin: 0 10px;">Tables</a>
+        <a href="#forms" style="color: white; margin: 0 10px;">Forms</a>
+    </nav>
+
+    <main>
+        <!-- ==========================================
+             3. TEXT FORMATTING & HEADINGS
+        =========================================== -->
+        <section id="text-formatting">
+            <h2>📝 Text Formatting & Headings</h2>
+            
+            <!-- Headings -->
+            <h1>This is Heading 1 (Largest)</h1>
+            <h2>This is Heading 2</h2>
+            <h3>This is Heading 3</h3>
+            <h4>This is Heading 4</h4>
+            <h5>This is Heading 5</h5>
+            <h6>This is Heading 6 (Smallest)</h6>
+
+            <hr> <!-- Horizontal Rule -->
+
+            <!-- Paragraphs and Inline formatting -->
+            <p>This is a standard paragraph. Web development is <strong>bold and strong</strong>, while sometimes it needs to be <em>italicized and emphasized</em>.</p>
+            
+            <p>Here is some <mark>highlighted text</mark> using the mark tag.</p>
+            
+            <p>Pricing: <del>Old Price $50</del> | <ins>New Price $40</ins> (Deleted and Inserted text).</p>
+            
+            <p>Water formula is H<sub>2</sub>O (Subscript) and a math equation is a<sup>2</sup> + b<sup>2</sup> (Superscript).</p>
+
+            <!-- Blockquote and Code -->
+            <blockquote>
+                "Talk is cheap. Show me the code." - Linus Torvalds
+            </blockquote>
+
+            <p>To print something in Python, use the <code>print("Hello World")</code> function.</p>
+
+            <pre>
+                <!-- Preformatted text preserves spaces and line breaks -->
+                    function sayHello() {
+                        console.log("Hello from Preformatted text!");
+                    }
+            </pre>
+        </section>
+
+        <!-- ==========================================
+             4. LISTS (Ordered, Unordered, Description)
+        =========================================== -->
+        <section id="lists">
+            <h2>🔗 Lists</h2>
+
+            <h3>Unordered List (Bullet Points)</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h3>Ordered List (Numbers)</h3>
+            <ol type="1">
+                <li>Write Code</li>
+                <li>Test Code</li>
+                <li>Deploy Code</li>
+            </ol>
+
+            <h3>Description List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language - The skeleton of web pages.</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets - The design and look of web pages.</dd>
+            </dl>
+        </section>
+
+        <!-- ==========================================
+             5. MEDIA (Images, Audio, Video, Iframe)
+        =========================================== -->
+        <section id="media">
+            <h2>🖼️ Media & Embedded Content</h2>
+
+            <h3>Image with Figure and Figcaption</h3>
+            <figure>
+                <!-- Using a placeholder image -->
+                <img src="image.png" alt="Placeholder Image Example" width="400">
+                <figcaption>Fig 1. A placeholder image for demonstration.</figcaption>
+            </figure>
+
+            <h3>Audio Player</h3>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Player</h3>
+            <video width="400" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+
+            <h3>Iframe (Embed Website or YouTube)</h3>
+            <iframe width="100%" height="300" src="https://en.wikipedia.org/wiki/HTML" title="Wikipedia HTML Page" style="border:none;"></iframe>
+        </section>
+
+        <!-- ==========================================
+             6. TABLES
+        =========================================== -->
+        <section id="tables">
+            <h2>📊 Tables</h2>
+
+            <table>
+                <caption>Employee Data Table</caption>
+                <thead>
+                    <tr style="background-color: #eee;">
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Krunal Viradiya</td>
+                        <td>Web Developer</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>John Doe</td>
+                        <td>UI/UX Designer</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" style="text-align: center;">Total Employees: 2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- ==========================================
+             7. FORMS & INPUTS
+        =========================================== -->
+        <section id="forms">
+            <h2>📝 Forms and User Inputs</h2>
+
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Enter First Name" required><br><br>
+
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd"><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>
+
+                    <label>Skills:</label><br>
+                    <input type="checkbox" id="html" name="skills" value="html" checked>
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="css" name="skills" value="css">
+                    <label for="css">CSS</label><br><br>
+
+                    <label for="country">Country:</label><br>
+                    <select id="country" name="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                    </select><br><br>
+
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" placeholder="Type something here..."></textarea><br><br>
+
+                    <!-- Interactive Elements -->
+                    <label for="vol">Volume (Range):</label>
+                    <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+
+                    <input type="date" name="bday"><br><br>
+                    <input type="color" name="favcolor" value="#ff0000"><br><br>
+
+                    <button type="submit" style="padding: 10px 20px; background: #333; color: #fff; border: none; cursor: pointer;">Submit Form</button>
+                    <button type="reset" style="padding: 10px 20px; background: #999; color: #fff; border: none; cursor: pointer;">Reset</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- ==========================================
+             8. INTERACTIVE (Details & Summary)
+        =========================================== -->
+        <section id="interactive">
+            <h2>🛠️ Interactive Elements</h2>
+            <details>
+                <summary>Click here to reveal a secret message!</summary>
+                <p>Boom! This is an interactive accordion made purely with HTML, no JavaScript required.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <!-- ==========================================
+         9. FOOTER
+    =========================================== -->
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/krunal-viradiya" style="color: #4da6ff;">Krunal Viradiya</a></p>
+        <p>&copy; 2026 HTML Zero to Hero. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
