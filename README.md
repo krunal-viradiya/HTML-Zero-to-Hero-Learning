@@ -148,8 +148,21 @@
 
 <hr>
 
+<h2>📁 Repository Structure</h2>
+<p>Here is a quick look at the files included in this project to help you navigate:</p>
+<pre>
+zero-to-hero-html/
+├── Basic.html             # The core foundational HTML concepts and tags
+├── Advanced.html          # Complex HTML5 features and semantic layouts
+├── Design concepts.pdf    # Sample PDF asset used in the code examples
+├── image.png              # Sample image asset used in the code examples
+└── README.md              # You are reading this right now!
+</pre>
+
+<hr>
+
 <h2>🛠️ How to Use This Repo</h2>
-<p>Since everything is beautifully organized in one file, getting started is incredibly easy!</p>
+<p>Since everything is beautifully organized, getting started is incredibly easy!</p>
 <ol>
   <li><strong>Clone the repository</strong> to your local machine:
     <br><br>
@@ -157,7 +170,7 @@
     <br><br>
   </li>
   <li><strong>Open the folder</strong> in your favorite code editor (like VS Code).</li>
-  <li><strong>Open the main HTML file</strong> in your editor to see the code structure.</li>
+  <li><strong>Open the HTML files</strong> (<code>Basic.html</code> or <code>Advanced.html</code>) in your editor to see the code structure.</li>
   <li><strong>Run it in your browser!</strong> Just double-click the file, or use the <em>Live Server</em> extension in VS Code to see exactly how the code translates to a real webpage.</li>
 </ol>
 <p><em>Tip: Keep the browser and code editor side-by-side. Change a tag in the code, save it, and watch the magic happen live!</em></p>
@@ -167,13 +180,13 @@
 <h2>💡 The Vision Behind This Repository</h2>
 <p>When beginners start learning web development, they often get overwhelmed by complex folder structures, multiple files, and heavy documentation. Learning HTML shouldn't be complicated—it is the foundational language of the web, and it should be accessible to everyone.</p>
 <p>I created <strong>HTML: Zero to Hero</strong> with a simple philosophy: <strong>Keep it simple, keep it powerful.</strong></p>
-<p>Instead of jumping between different files to understand different concepts, this repository gives you a single, unified playground. You can scroll from top to bottom, reading the heavily commented code, and simultaneously seeing the output in your browser.</p>
+<p>Instead of jumping between different files to understand different concepts, this repository gives you a clean playground. You can scroll from top to bottom in the files, reading the heavily commented code, and simultaneously seeing the output in your browser.</p>
 
 <hr>
 
 <h2>🤝 How to Contribute</h2>
 <p>This repository is <strong>Open Source</strong>, and your contributions make the developer community an amazing place to learn and create!</p>
-<p>If you think a specific HTML concept is missing, or you have a better practical example to add to our master file, please contribute:</p>
+<p>If you think a specific HTML concept is missing, or you have a better practical example to add to our master files, please contribute:</p>
 <ol>
   <li><strong>Fork</strong> the repository.</li>
   <li><strong>Create your Feature Branch</strong> (<code>git checkout -b feature/AmazingHTMLFeature</code>).</li>
