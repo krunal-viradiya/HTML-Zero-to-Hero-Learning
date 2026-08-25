@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- =========================================================
+         1. DOCUMENT / HEAD TAGS
+    ========================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Complete HTML5 Zero to Hero Master File"
+    >
+
+    <meta
+        name="keywords"
+        content="HTML, HTML5, CSS, Web Development, HTML Tutorial"
+    >
+
+    <meta name="author" content="HTML Zero to Hero">
+
+    <meta name="theme-color" content="#111827">
+
+    <title>HTML5 Zero to Hero 🚀</title>
+
+    <!-- Base URL -->
+    <base href="./">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- External stylesheet example -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+        /* =========================================================
+           BASIC CSS
+        ========================================================== */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f3f4f6;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        nav {
+            background: #1f2937;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 10px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+        }
+
+        section {
+            padding: 30px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #111827;
+        }
+
+        code {
+            background: #e5e7eb;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        pre {
+            background: #111827;
+            color: #f9fafb;
+            padding: 20px;
+            overflow-x: auto;
+            border-radius: 8px;
+        }
+
+        blockquote {
+            border-left: 5px solid #2563eb;
+            padding-left: 15px;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #e5e7eb;
+        }
+
+        input,
+        select,
+        textarea,
+        button {
+            margin: 5px 0;
+            padding: 8px;
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .box {
+            padding: 20px;
+            background: #eff6ff;
+            border: 1px solid #93c5fd;
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer a {
+            color: #60a5fa;
+        }
+
+        dialog {
+            padding: 25px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
+    <!-- JavaScript example -->
+    <script>
+        // JavaScript can be written here.
+        console.log("HTML Master File Loaded!");
+    </script>
+
+    <noscript>
+        JavaScript is disabled in your browser.
+    </noscript>
+</head>
+
+
+<body>
+
+    <!-- =========================================================
+         2. HEADER
+    ========================================================== -->
+
+    <header id="top">
+
+        <h1>HTML5 Zero to Hero 🚀</h1>
+
+        <p>
+            Complete HTML5 Master File — Important Tags & Examples
+        </p>
+
+    </header>
+
+
+    <!-- =========================================================
+         3. NAVIGATION
+    ========================================================== -->
+
+    <nav>
+
+        <a href="#document">Document</a>
+        <a href="#text">Text</a>
+        <a href="#semantic">Semantic</a>
+        <a href="#lists">Lists</a>
+        <a href="#media">Media</a>
+        <a href="#table">Tables</a>
+        <a href="#forms">Forms</a>
+        <a href="#interactive">Interactive</a>
+        <a href="#graphics">Graphics</a>
+
+    </nav>
+
+
+    <main>
+
+        <!-- =====================================================
+             4. DOCUMENT STRUCTURE
+        ====================================================== -->
+
+        <section id="document">
+
+            <h2>📄 Document Structure</h2>
+
+            <p>
+                This is a normal paragraph.
+            </p>
+
+            <div class="box">
+                This is a <code>&lt;div&gt;</code> element.
+            </div>
+
+            <span>
+                This is a <code>&lt;span&gt;</code> element.
+            </span>
+
+            <hr>
+
+            <p>
+                HTML document structure:
+            </p>
+
+            <pre><code style="color: white; background-color: transparent;">
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Page&lt;/title&gt;
+                    &lt;/head&gt;
+
+                    &lt;body&gt;
+                        Content
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code></pre>
+
+        </section>
+
+
+        <!-- =====================================================
+             5. HEADINGS & TEXT
+        ====================================================== -->
+
+        <section id="text">
+
+            <h2>📝 Headings & Text Formatting</h2>
+
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+
+            <hr>
+
+            <p>
+                Normal paragraph using <code>&lt;p&gt;</code>.
+            </p>
+
+            <p>
+                <strong>Strong / Important text</strong>
+            </p>
+
+            <p>
+                <em>Emphasized text</em>
+            </p>
+
+            <p>
+                <b>Bold text</b>
+            </p>
+
+            <p>
+                <i>Italic text</i>
+            </p>
+
+            <p>
+                <u>Underlined text</u>
+            </p>
+
+            <p>
+                <s>Strikethrough text</s>
+            </p>
+
+            <p>
+                <small>Small text</small>
+            </p>
+
+            <p>
+                <mark>Highlighted text</mark>
+            </p>
+
+            <p>
+                Old Price:
+                <del>$100</del>
+                New Price:
+                <ins>$80</ins>
+            </p>
+
+            <p>
+                H<sub>2</sub>O
+            </p>
+
+            <p>
+                x<sup>2</sup> + y<sup>2</sup>
+            </p>
+
+            <p>
+                Line one<br>
+                Line two
+            </p>
+
+            <p>
+                Long word<wbr>breakable<wbr>point
+            </p>
+
+            <p>
+                <abbr title="HyperText Markup Language">
+                    HTML
+                </abbr>
+                stands for HyperText Markup Language.
+            </p>
+
+            <p>
+                My favorite book is
+                <cite>HTML & CSS</cite>.
+            </p>
+
+            <p>
+                He said:
+                <q>Learning HTML is fun.</q>
+            </p>
+
+            <blockquote>
+                This is a blockquote.
+                It is used for quoted content.
+            </blockquote>
+
+            <p>
+                Press
+                <kbd>Ctrl</kbd>
+                +
+                <kbd>S</kbd>
+                to save.
+            </p>
+
+            <p>
+                Program output:
+                <samp>Hello World!</samp>
+            </p>
+
+            <p>
+                Mathematical variable:
+                <var>x</var>
+            </p>
+
+            <p>
+                Product:
+                <data value="101">Laptop</data>
+            </p>
+
+            <p>
+                <bdi>مرحبا</bdi>
+                — Bidirectional text.
+            </p>
+
+            <p>
+                <bdo dir="rtl">
+                    This text is right to left.
+                </bdo>
+            </p>
+
+            <p>
+                Japanese:
+                <ruby>
+                    日本
+                    <rt>にほん</rt>
+                </ruby>
+            </p>
+
+            <p>
+                <time datetime="2026-08-24">
+                    August 24, 2026
+                </time>
+            </p>
+
+            <address>
+                Contact: example@example.com<br>
+                Ahmedabad, Gujarat, India
+            </address>
+
+            <pre>
+Preformatted text
+    keeps spaces
+        and line breaks.
+            </pre>
+
+        </section>
+
+
+        <!-- =====================================================
+             6. SEMANTIC HTML
+        ====================================================== -->
+
+        <section id="semantic">
+
+            <h2>🏗️ Semantic HTML</h2>
+
+            <article>
+
+                <h3>Article</h3>
+
+                <p>
+                    The article element represents
+                    independent content.
+                </p>
+
+            </article>
+
+
+            <aside>
+
+                <h3>Aside</h3>
+
+                <p>
+                    This is additional or related information.
+                </p>
+
+            </aside>
+
+
+            <div>
+
+                <h3>Section</h3>
+
+                <p>
+                    Section groups related content.
+                </p>
+
+            </div>
+
+
+            <header>
+
+                <h3>Nested Header</h3>
+
+                <p>
+                    Header can be used for a section or article.
+                </p>
+
+            </header>
+
+
+            <footer>
+
+                <p>
+                    Section footer example.
+                </p>
+
+            </footer>
+
+        </section>
+
+
+        <!-- =====================================================
+             7. LISTS
+        ====================================================== -->
+
+        <section id="lists">
+
+            <h2>📋 Lists</h2>
+
+            <h3>Unordered List</h3>
+
+            <ul>
+
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+
+            </ul>
+
+
+            <h3>Ordered List</h3>
+
+            <ol>
+
+                <li>Learn</li>
+                <li>Practice</li>
+                <li>Build</li>
+
+            </ol>
+
+
+            <h3>Ordered List With Type</h3>
+
+            <ol type="A">
+
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+
+            </ol>
+
+
+            <h3>Description List</h3>
+
+            <dl>
+
+                <dt>HTML</dt>
+
+                <dd>
+                    Structure of a webpage.
+                </dd>
+
+
+                <dt>CSS</dt>
+
+                <dd>
+                    Styling of a webpage.
+                </dd>
+
+
+                <dt>JavaScript</dt>
+
+                <dd>
+                    Programming language for web pages.
+                </dd>
+
+            </dl>
+
+
+            <h3>Nested List</h3>
+
+            <ul>
+
+                <li>
+                    Frontend
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                </li>
+
+                <li>
+                    Backend
+
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                    </ul>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- =====================================================
+             8. LINKS
+        ====================================================== -->
+
+        <section>
+
+            <h2>🔗 Links</h2>
+
+            <p>
+                <a href="https://example.com">
+                    Normal Link
+                </a>
+            </p>
+
+            <p>
+                <a href="https://example.com" target="_blank">
+                    Open in New Tab
+                </a>
+            </p>
+
+            <p>
+                <a href="mailto:example@example.com">
+                    Email Link
+                </a>
+            </p>
+
+            <p>
+                <a href="tel:+911234567890">
+                    Phone Link
+                </a>
+            </p>
+
+            <p>
+                <a href="#top">
+                    Go To Top
+                </a>
+            </p>
+
+            <p>
+                <a
+                    href="document.pdf"
+                    download
+                >
+                    Download File
+                </a>
+            </p>
+
+        </section>
+
+
+        <!-- =====================================================
+             9. IMAGES
+        ====================================================== -->
+
+        <section>
+
+            <h2>🖼️ Images</h2>
+
+            <figure>
+
+                <img
+                    src="image.png"
+                    alt="Example Image"
+                    width="400"
+                >
+
+                <figcaption>
+                    Figure 1 — Example Image
+                </figcaption>
+
+            </figure>
+
+
+            <h3>Responsive Image</h3>
+
+            <picture>
+
+                <source
+                    media="(min-width: 800px)"
+                    srcset="image.png"
+                >
+
+                <source
+                    media="(min-width: 400px)"
+                    srcset="medium-image.jpg"
+                >
+
+                <img
+                    src="small-image.jpg"
+                    alt="Responsive image"
+                >
+
+            </picture>
+
+        </section>
+
+
+        <!-- =====================================================
+             10. AUDIO / VIDEO
+        ====================================================== -->
+
+        <section id="media">
+
+            <h2>🎵 Audio & Video</h2>
+
+            <h3>Audio</h3>
+
+            <audio controls>
+
+                <source
+                    src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                    type="audio/mpeg"
+                >
+
+                Your browser does not support audio.
+
+            </audio>
+
+
+            <h3>Video</h3>
+
+            <video
+                width="500"
+                controls
+                poster="poster.jpg"
+            >
+
+                <source
+                    src="https://www.w3schools.com/html/mov_bbb.mp4"
+                    type="video/mp4"
+                >
+
+                <track
+                    src="captions.vtt"
+                    kind="subtitles"
+                    srclang="en"
+                    label="English"
+                >
+
+                Your browser does not support video.
+
+            </video>
+
+        </section>
+
+
+        <!-- =====================================================
+             11. IFRAME / EMBED / OBJECT
+        ====================================================== -->
+
+        <section>
+
+            <h2>🌐 Embedded Content</h2>
+
+            <h3>Iframe</h3>
+
+            <iframe
+                src="https://en.wikipedia.org/wiki/HTML"
+                width="100%"
+                height="250"
+                title="Example Website"
+            >
+            </iframe>
+
+
+            <h3>Object</h3>
+
+            <object
+                data="Dsign concepts.pdf"
+                type="application/pdf"
+                width="500"
+                height="300"
+            >
+                PDF cannot be displayed.
+            </object>
+
+
+            <h3>Embed</h3>
+
+            <embed
+                src="Dsign concepts.pdf"
+                type="application/pdf"
+                width="500"
+                height="300"
+            >
+
+        </section>
+
+
+        <!-- =====================================================
+             12. TABLE
+        ====================================================== -->
+
+        <section id="table">
+
+            <h2>📊 Tables</h2>
+
+            <table>
+
+                <caption>
+                    Employee Information
+                </caption>
+
+                <colgroup>
+
+                    <col style="background-color:#f9fafb">
+
+                    <col>
+
+                    <col>
+
+                </colgroup>
+
+                <thead>
+
+                    <tr>
+
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Role</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <td>101</td>
+                        <td>Krunal</td>
+                        <td>Developer</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>102</td>
+                        <td>John</td>
+                        <td>Designer</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>103</td>
+                        <td>Alex</td>
+                        <td>Manager</td>
+
+                    </tr>
+
+                </tbody>
+
+
+                <tfoot>
+
+                    <tr>
+
+                        <td colspan="3">
+                            Total Employees: 3
+                        </td>
+
+                    </tr>
+
+                </tfoot>
+
+            </table>
+
+        </section>
+
+
+        <!-- =====================================================
+             13. FORMS
+        ====================================================== -->
+
+        <section id="forms">
+
+            <h2>📝 Forms & Inputs</h2>
+
+            <form
+                action="#"
+                method="post"
+                autocomplete="on"
+            >
+
+                <fieldset>
+
+                    <legend>
+                        Personal Information
+                    </legend>
+
+
+                    <!-- Text -->
+
+                    <label for="fname">
+                        First Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="fname"
+                        name="fname"
+                        placeholder="Enter name"
+                        required
+                    >
+
+                    <br>
+
+
+                    <!-- Password -->
+
+                    <label for="password">
+                        Password:
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                    >
+
+                    <br>
+
+
+                    <!-- Email -->
+
+                    <label for="email">
+                        Email:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                    >
+
+                    <br>
+
+
+                    <!-- Telephone -->
+
+                    <label for="phone">
+                        Phone:
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                    >
+
+                    <br>
+
+
+                    <!-- URL -->
+
+                    <label for="website">
+                        Website:
+                    </label>
+
+                    <input
+                        type="url"
+                        id="website"
+                        name="website"
+                    >
+
+                    <br>
+
+
+                    <!-- Search -->
+
+                    <label for="search">
+                        Search:
+                    </label>
+
+                    <input
+                        type="search"
+                        id="search"
+                        name="search"
+                    >
+
+                    <br>
+
+
+                    <!-- Number -->
+
+                    <label for="age">
+                        Age:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="age"
+                        name="age"
+                        min="1"
+                        max="100"
+                    >
+
+                    <br>
+
+
+                    <!-- Radio -->
+
+                    <p>Gender:</p>
+
+                    <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                    >
+
+                    <label for="male">
+                        Male
+                    </label>
+
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                    >
+
+                    <label for="female">
+                        Female
+                    </label>
+
+                    <br>
+
+
+                    <!-- Checkbox -->
+
+                    <p>Skills:</p>
+
+                    <input
+                        type="checkbox"
+                        id="html"
+                        name="skills"
+                        value="html"
+                        checked
+                    >
+
+                    <label for="html">
+                        HTML
+                    </label>
+
+
+                    <input
+                        type="checkbox"
+                        id="css"
+                        name="skills"
+                        value="css"
+                    >
+
+                    <label for="css">
+                        CSS
+                    </label>
+
+
+                    <input
+                        type="checkbox"
+                        id="js"
+                        name="skills"
+                        value="javascript"
+                    >
+
+                    <label for="js">
+                        JavaScript
+                    </label>
+
+                    <br>
+
+
+                    <!-- Select -->
+
+                    <label for="country">
+                        Country:
+                    </label>
+
+                    <select id="country" name="country">
+
+                        <option value="">
+                            Select Country
+                        </option>
+
+                        <optgroup label="Asia">
+
+                            <option value="india">
+                                India
+                            </option>
+
+                            <option value="japan">
+                                Japan
+                            </option>
+
+                        </optgroup>
+
+
+                        <optgroup label="Europe">
+
+                            <option value="uk">
+                                UK
+                            </option>
+
+                            <option value="germany">
+                                Germany
+                            </option>
+
+                        </optgroup>
+
+
+                        <optgroup label="America">
+
+                            <option value="usa">
+                                USA
+                            </option>
+
+                            <option value="canada">
+                                Canada
+                            </option>
+
+                        </optgroup>
+
+                    </select>
+
+                    <br>
+
+
+                    <!-- Datalist -->
+
+                    <label for="browser">
+                        Browser:
+                    </label>
+
+                    <input
+                        list="browsers"
+                        id="browser"
+                        name="browser"
+                    >
+
+                    <datalist id="browsers">
+
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Edge">
+                        <option value="Safari">
+
+                    </datalist>
+
+                    <br>
+
+
+                    <!-- Textarea -->
+
+                    <label for="message">
+                        Message:
+                    </label>
+
+                    <br>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        cols="40"
+                        placeholder="Write message..."
+                    ></textarea>
+
+                    <br>
+
+
+                    <!-- Date -->
+
+                    <label>
+                        Date:
+                    </label>
+
+                    <input
+                        type="date"
+                        name="date"
+                    >
+
+                    <br>
+
+
+                    <!-- Time -->
+
+                    <label>
+                        Time:
+                    </label>
+
+                    <input
+                        type="time"
+                        name="time"
+                    >
+
+                    <br>
+
+
+                    <!-- Datetime -->
+
+                    <label>
+                        Date & Time:
+                    </label>
+
+                    <input
+                        type="datetime-local"
+                        name="datetime"
+                    >
+
+                    <br>
+
+
+                    <!-- Month -->
+
+                    <label>
+                        Month:
+                    </label>
+
+                    <input
+                        type="month"
+                        name="month"
+                    >
+
+                    <br>
+
+
+                    <!-- Week -->
+
+                    <label>
+                        Week:
+                    </label>
+
+                    <input
+                        type="week"
+                        name="week"
+                    >
+
+                    <br>
+
+
+                    <!-- File -->
+
+                    <label>
+                        Upload File:
+                    </label>
+
+                    <input
+                        type="file"
+                        name="file"
+                    >
+
+                    <br>
+
+
+                    <!-- Color -->
+
+                    <label>
+                        Favorite Color:
+                    </label>
+
+                    <input
+                        type="color"
+                        name="color"
+                        value="#ff0000"
+                    >
+
+                    <br>
+
+
+                    <!-- Range -->
+
+                    <label for="volume">
+                        Volume:
+                    </label>
+
+                    <input
+                        type="range"
+                        id="volume"
+                        name="volume"
+                        min="0"
+                        max="100"
+                        value="50"
+                    >
+
+                    <br>
+
+
+                    <!-- Hidden -->
+
+                    <input
+                        type="hidden"
+                        name="user_id"
+                        value="123"
+                    >
+
+
+                    <!-- Submit -->
+
+                    <br>
+
+                    <button type="submit">
+                        Submit
+                    </button>
+
+
+                    <button type="reset">
+                        Reset
+                    </button>
+
+
+                    <button type="button">
+                        Normal Button
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+        <!-- =====================================================
+             14. PROGRESS / METER / OUTPUT
+        ====================================================== -->
+
+        <section>
+
+            <h2>📈 Progress, Meter & Output</h2>
+
+            <label>
+                Course Progress:
+            </label>
+
+            <progress
+                value="70"
+                max="100"
+            >
+                70%
+            </progress>
+
+
+            <br><br>
+
+
+            <label>
+                Disk Usage:
+            </label>
+
+            <meter
+                value="0.7"
+                min="0"
+                max="1"
+            >
+                70%
+            </meter>
+
+
+            <br><br>
+
+
+            <form
+                oninput="
+                    result.value =
+                    Number(a.value) +
+                    Number(b.value)
+                "
+            >
+
+                <input
+                    type="number"
+                    id="a"
+                    value="10"
+                >
+
+                +
+
+                <input
+                    type="number"
+                    id="b"
+                    value="20"
+                >
+
+                =
+
+                <output name="result">
+                    30
+                </output>
+
+            </form>
+
+        </section>
+
+
+        <!-- =====================================================
+             15. DETAILS / SUMMARY
+        ====================================================== -->
+
+        <section id="interactive">
+
+            <h2>🛠️ Interactive HTML</h2>
+
+            <details>
+
+                <summary>
+                    Click to open
+                </summary>
+
+                <p>
+                    This content appears when
+                    details are opened.
+                </p>
+
+            </details>
+
+
+            <br>
+
+
+            <details open>
+
+                <summary>
+                    Open by Default
+                </summary>
+
+                <p>
+                    This details element is already open.
+                </p>
+
+            </details>
+
+        </section>
+
+
+        <!-- =====================================================
+             16. DIALOG
+        ====================================================== -->
+
+        <section>
+
+            <h2>💬 Dialog</h2>
+
+            <button
+                type="button"
+                onclick="document.getElementById('myDialog').showModal()"
+            >
+                Open Dialog
+            </button>
+
+
+            <dialog id="myDialog">
+
+                <h3>Hello 👋</h3>
+
+                <p>
+                    This is an HTML dialog element.
+                </p>
+
+                <button
+                    type="button"
+                    onclick="document.getElementById('myDialog').close()"
+                >
+                    Close
+                </button>
+
+            </dialog>
+
+        </section>
+
+
+        <!-- =====================================================
+             17. CANVAS
+        ====================================================== -->
+
+        <section id="graphics">
+
+            <h2>🎨 Canvas</h2>
+
+            <canvas
+                id="myCanvas"
+                width="500"
+                height="250"
+                style="border:1px solid #333;"
+            >
+                Your browser does not support canvas.
+            </canvas>
+
+        </section>
+
+
+        <!-- =====================================================
+             18. SVG
+        ====================================================== -->
+
+        <section>
+
+            <h2>🔷 SVG</h2>
+
+            <svg
+                width="500"
+                height="250"
+                viewBox="0 0 500 250"
+                style="border:1px solid #ddd;"
+            >
+
+                <!-- Rectangle -->
+
+                <rect
+                    x="20"
+                    y="20"
+                    width="150"
+                    height="80"
+                    fill="steelblue"
+                />
+
+
+                <!-- Circle -->
+
+                <circle
+                    cx="270"
+                    cy="60"
+                    r="40"
+                    fill="tomato"
+                />
+
+
+                <!-- Line -->
+
+                <line
+                    x1="20"
+                    y1="150"
+                    x2="400"
+                    y2="150"
+                    stroke="black"
+                    stroke-width="3"
+                />
+
+
+                <!-- Text -->
+
+                <text
+                    x="20"
+                    y="200"
+                    font-size="25"
+                    fill="green"
+                >
+                    SVG Example
+                </text>
+
+            </svg>
+
+        </section>
+
+
+        <!-- =====================================================
+             19. IMAGE MAP
+        ====================================================== -->
+
+        <section>
+
+            <h2>🗺️ Image Map</h2>
+
+            <img
+                src="image.png"
+                alt="Clickable Image"
+                width="500"
+                usemap="#myMap"
+            >
+
+
+            <map name="myMap">
+
+                <area
+                    shape="rect"
+                    coords="0,0,250,200"
+                    href="#text"
+                    alt="Text Section"
+                >
+
+                <area
+                    shape="circle"
+                    coords="400,100,50"
+                    href="#forms"
+                    alt="Form Section"
+                >
+
+            </map>
+
+        </section>
+
+
+        <!-- =====================================================
+             20. TEMPLATE
+        ====================================================== -->
+
+        <section>
+
+            <h2>📦 Template</h2>
+
+            <template id="userTemplate">
+
+                <div class="box">
+
+                    <h3>User Card</h3>
+
+                    <p>
+                        This content is inside
+                        an HTML template.
+                    </p>
+
+                </div>
+
+            </template>
+
+            <p>
+                Template content is not rendered
+                automatically.
+            </p>
+
+        </section>
+
+
+        <!-- =====================================================
+             21. OBJECT / DATA / SPECIAL TAGS
+        ====================================================== -->
+
+        <section>
+
+            <h2>🧩 Miscellaneous HTML</h2>
+
+            <p>
+                File size:
+                <data value="1024">
+                    1 KB
+                </data>
+            </p>
+
+            <p>
+                <bdi>ABC123</bdi>
+            </p>
+
+            <p>
+                This is
+                <span>
+                    inline content
+                </span>
+                inside a span.
+            </p>
+
+            <hr>
+
+            <p>
+                Horizontal rule above.
+            </p>
+
+        </section>
+
+
+        <!-- =====================================================
+             22. FOOTER
+        ====================================================== -->
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            HTML5 Zero to Hero 🚀
+        </p>
+
+        <p>
+            &copy; 2026 All Rights Reserved.
+        </p>
+
+        <p>
+            <a href="#top">
+                Back to Top ↑
+            </a>
+        </p>
+
+    </footer>
+
+
+    <!-- =========================================================
+         23. JAVASCRIPT
+    ========================================================== -->
+
+    <script>
+
+        // Canvas Example
+
+        const canvas =
+            document.getElementById("myCanvas");
+
+        const ctx =
+            canvas.getContext("2d");
+
+
+        // Rectangle
+
+        ctx.fillStyle = "steelblue";
+
+        ctx.fillRect(
+            20,
+            20,
+            150,
+            80
+        );
+
+
+        // Circle
+
+        ctx.beginPath();
+
+        ctx.arc(
+            300,
+            70,
+            40,
+            0,
+            Math.PI * 2
+        );
+
+        ctx.fillStyle = "tomato";
+
+        ctx.fill();
+
+
+        // Text
+
+        ctx.font = "25px Arial";
+
+        ctx.fillStyle = "green";
+
+        ctx.fillText(
+            "Canvas Example",
+            20,
+            180
+        );
+
+    </script>
+
+
+</body>
+</html>
